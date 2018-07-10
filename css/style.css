@@ -1,0 +1,191 @@
+
+body {
+    margin: 0;
+    background: #e9e9e9
+}
+
+header {
+    background-color: #d9d9d9;
+    padding-left: 50px;   
+}
+
+
+p {
+    font-family: 'Open Sans';
+    font-size: 16px;
+}
+
+h3 {
+    font-family: 'Righteous';
+    font-size: 20px;
+    color: #333;
+}
+
+/*selector descendente*/
+
+nav.menu {
+    padding-right: 120px;
+}
+
+.contenedor {
+    padding-left: 150px;
+    padding-right: 50px;
+}
+
+.jpvideo {
+    height: 400px;
+    width: 600px;
+    margin: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;    
+}
+/*selectores de clases*/
+
+
+.titulo {
+    color: #333;
+    font-size: 70px;
+    font-family: 'Righteous';
+    margin-bottom: 0px;
+}
+
+.titulo-photo {
+    color: #333;
+    font-size: 50px;
+    font-family: 'Righteous';
+    margin-bottom: 0px;
+    text-align: center;
+}
+
+.titulo-integrantes {
+    font-size: 35px;
+    padding-top: 20px;
+}
+
+.titulo span {
+    text-decoration: underline;
+}
+
+.img-portada {
+    width: 1000px;
+    height: 560px;
+}
+
+.relative-post {
+    position: relative;
+}
+
+.info-post {
+    background: rgba(255, 255, 255, 0.8);
+    padding: 2em 4em;
+    position: absolute;
+    left: 550px;
+    bottom: -150px;
+}
+
+.musico {
+    width: 320px;
+    height: 400px;
+    margin-top: 1.2em;
+    display: inline-block;
+    flex-direction: column;
+}
+
+#musicos {
+    display: flex;
+    justify-content: space-between;
+    width: 1000px;
+    margin: auto;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+
+
+#albumes {
+    font-family: "Open Sans";
+    border-collapse: collapse;
+    width: 90%;
+    margin-bottom: 100px;
+}
+
+#albumes td, #albumes th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+#albumes tr:nth-child(even){background-color: #f2f2f2;}
+
+#albumes tr:hover {background-color: #ddd;}
+
+#albumes th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #7b7b7b;
+    color: white;
+}
+
+
+.menu {
+  font-size: 24px;
+  display: inline-block;
+  position: absolute;
+  right: 0;
+}
+
+.menu li {
+  display: inline-block;
+  margin-left: 30px;
+}
+
+.menu li:before{
+  content: '∘';
+  font-size: 50px;
+  line-height: 20px;
+  color: black;
+}
+
+.menu a {
+  color: black;
+  text-decoration: none;
+}
+
+.logotipo {
+  display: inline-block;
+  margin-left: 0;
+}
+
+
+.menu {
+  font-size: 24px;
+  display: inline-block;
+  position: absolute;
+  right: 0;
+}
+
+.header {
+  position: relative;
+}
+
+.footer {
+    background: #7b7b7b;
+}
+
+.footer div img {
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+
+.footer-1 {
+    display: inline-block;
+}
+
+.footer-2 {
+    display: inline-block;
+    position: absolute;
+    left: 950px;
+    margin-top: 30px;
+}
